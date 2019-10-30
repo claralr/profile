@@ -84,6 +84,12 @@ a:hover {
   border-radius: 50%;
 }
 
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
 .list-inline {
   list-style-type: none;
   padding-left: 0px;
