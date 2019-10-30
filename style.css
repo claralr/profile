@@ -25,7 +25,7 @@ body {
   font-family: Open Sans;
   color: #26635f;
   font-size: 18px;
-  line-height:1;
+  line-height:2;
 }
 
 a {
@@ -63,6 +63,19 @@ a:hover {
   text-align: center;
 }
 
+#button {
+  width: 120px;
+  height: 30px;
+  border-radius: 3%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
 .text-center {
   text-align: center;
 }
@@ -80,6 +93,7 @@ a:hover {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
+    margin: 0 auto;
   }
 }
 
