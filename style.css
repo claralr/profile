@@ -19,13 +19,12 @@ h3 {
   font-size: 20px;
 }
 
-
 body {
   background-color: white ;
   font-family: Open Sans;
   color: #26635f;
   font-size: 18px;
-  line-height:2;
+  line-height:1;
 }
 
 a {
@@ -40,40 +39,17 @@ a:hover {
 .container {
   width: 700px;
   margin: 0px auto;
+  https://media.giphy.com/media/siPJmCmNLCdji/giphy.gif
 }
 
 .card {
   background: white ;
   border-top: 1px solid white ;
   border-left: 2px solid white;
+  border-bottom: 5px solid white;
   border-radius: 5px;
   margin: 10px auto;
   box-shadow: 3px 2px 2px 1px #26635f;
-}
-
-.text-center {
-  text-align: center;
-}
-
-
-#profilpic {
-  width: 200px;
-  height: 250px;
-  border-radius: 50%;
-  text-align: center;
-}
-
-#button {
-  width: 120px;
-  height: 30px;
-  border-radius: 3%;
-  text-align: center;
-  margin: 10px auto;
-}
-
-.container {
-    width: 500px;
-    margin: 0 auto;
 }
 
 .text-center {
@@ -84,22 +60,33 @@ a:hover {
   border-radius: 50%;
 }
 
-
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
 .list-inline {
   list-style-type: none;
   padding-left: 0px;
+}
+
+#profilpic {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.video-background-intro {
+  background-image: url("https://media.giphy.com/media/vHsqTwE8r0lZS/giphy.gif");
+}
+
+
+#button {
+  width: 120px;
+  height: 30px;
+  border: 5%;
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
-    margin: 0 auto;
   }
 }
 
